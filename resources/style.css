@@ -4,52 +4,44 @@ body {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
+  width: 99%;
   text-align: center;
 }
 
 .header-container {
   display: flex;
-  flex-wrap: wrap;
-}
-
-header {
+  justify-content: space-between;
   width: 100%;
-  height: 69px;
   position: fixed;
   border-bottom: 1px solid seashell;
-  z-index: 1;
+  height: 69px;
   align-items: center;
+  background-color: black;
 }
 
-header img {
+#logo {
   height: 50px;
   padding-left: 10px;
-  justify-content: flex-start;
-}
-
-nav {
-  flex-grow: 1;
 }
 
 nav a {
-  display: inline-block;
-  padding: 20px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 a {
-  display: flex;
-  text-decoration: underline;
   color: seashell;
 }
 
 #links {
   display: flex;
-  width: 85%;
+  padding-right: 10px;
 }
 
-.tea {
+.mission-container {
   display: flex;
   padding-top: 69px;
+  justify-content: center;
 }
 
 .body1 {
@@ -59,11 +51,71 @@ a {
   height: 700px;
   font-weight: bold;
   align-content: center;
+  justify-content: center;
   background-image: url(./images/img-mission-background.jpg);
 }
 
 #text {
-    background-color: black;
-    height: 150px;
-    margin-top: 275px;
+  background-color: black;
+  justify-content: center;
+}
+
+.month-container {
+  display: flex;
+  justify-content: center;
+  border: 2px solid green;
+}
+
+.monthtext {
+  width: 1000px;
+}
+
+.images-container {
+  display: flex;
+  justify-content: center;
+  border: 2px solid blue;
+}
+
+.image-grid {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.image-grid-item {
+  display: block;
+  padding: 5px;
+}
+
+.image-grid-item img {
+  display: block;
+  margin: 10px;
+  height: 200px;
+}
+
+.image-grid-item h4 {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.locations-container {
+  display: flex;
+  justify-content: center;
+  border: 2px solid pink;
+  height: 500px;
+}
+
+.locationstext {
+  width: 1200px;
+  background-image: url(./images/img-locations-background.jpg);
+}
+
+.box {
+  background-color: black;
+  justify-content: center;
+  flex-direction: column;
 }
