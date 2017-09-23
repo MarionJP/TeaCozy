@@ -63,7 +63,6 @@ a {
 .month-container {
   display: flex;
   justify-content: center;
-  border: 2px solid green;
 }
 
 .monthtext {
@@ -73,7 +72,6 @@ a {
 .images-container {
   display: flex;
   justify-content: center;
-  border: 2px solid blue;
 }
 
 .image-grid {
@@ -107,7 +105,6 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  border: 2px solid pink;
 }
 
 #locationstext {
@@ -116,7 +113,6 @@ a {
   height: 500px;
   width: 1200px;
   background-image: url(./images/img-locations-background.jpg);
-  border: 3px dotted green;
 }
 
 #locationstext h2 {
@@ -134,5 +130,13 @@ a {
   margin: 5px 20px;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid yellow;
+}
+
+.contact {
+  height: 200px;
+}
+
+.footer {
+  text-align: left;
+  padding-left: 20px;
 }
